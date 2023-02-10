@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(111.34deg,#4fcff8 7.25%, #d0ebf090 66%);
+}
+
+
+.container {
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    padding: 30px 150px;
+}
+.container--text{
+    margin-left: 120px;
+    margin-top: 80px;
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+input,textarea{
+    width: 80%;
+    margin: 10px 0;
+    height: 30px;
+
+
+}
+input{
+    padding: 10px 15px;
+}
+textarea{
+    height: 60px;
+
+}
+.btn{
+    width: 30%;
+    padding: 10px 15px ;
+    background: linear-gradient(111.34deg,#4fcff8 7.25%, #d0ebf090 66%);
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    
+}
